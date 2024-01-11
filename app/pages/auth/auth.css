@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.auth{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+
+.auth-main{
+    display: flex;
+    flex-direction: column;
+    width: 472px;
+    background-color: aqua;
+    height: 539px;
+}
+
+
+.auth-nav{
+    padding: 20px 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.auth-children{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
